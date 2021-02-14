@@ -682,6 +682,7 @@ body {
 	min-height: 438px;
 	display: flex;
 	flex-direction: column;
+	border-right: 1px solid #fff;
 }
 
 .feedback-top{
@@ -689,7 +690,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 111px;
-	border-right: 1px solid #fff;
+	
 	background-position: center bottom;
 	padding-bottom: 30px;
 }
@@ -792,11 +793,11 @@ body {
 
 .subscribe-button{
 	width: 104px;
-	height: 46px;
+	height: 45px;
 	background-color: $accent-color;
 	border-radius: 0px 23px 23px 0px;
 	position: absolute;
-	top: 15px;
+	top: 16px;
 	right: 0px;
 	border: none;
 	font-size: 14px;
@@ -810,7 +811,7 @@ body {
 	color: $accent-color;
 	border-radius: 0px 23px 23px 0px;
 	background-color: #ffffff;
-	outline: 1px solid $accent-color;
+	border: 1px solid $accent-color;
 }
 
 .footer-bottom{
